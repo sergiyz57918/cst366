@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Noto+Sans+JP');
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+content p {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: red;
+}
+
+.img--container {
+    position: relative;
+    cursor: pointer;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.heading{
+    font-family: 'Inconsolata', monospace;
+    
+}
+
+.img-holder{
+    text-align: center;
+    
+}
+.img--object{
+    opacity: 0.75 ;
+    
+}
