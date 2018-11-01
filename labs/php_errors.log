@@ -1,0 +1,20 @@
+[01-Nov-2018 01:51:55 UTC] PHP Warning:  Missing argument 2 for displaySymbol(), called in /home/ubuntu/workspace/cst366/labs/lab2/inc/functions.php on line 42 and defined in /home/ubuntu/workspace/cst366/labs/lab2/inc/functions.php on line 3
+[01-Nov-2018 01:51:55 UTC] PHP Stack trace:
+[01-Nov-2018 01:51:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst366/labs/lab2/index.php:0
+[01-Nov-2018 01:51:55 UTC] PHP   2. play() /home/ubuntu/workspace/cst366/labs/lab2/index.php:13
+[01-Nov-2018 01:51:55 UTC] PHP   3. displaySymbol() /home/ubuntu/workspace/cst366/labs/lab2/inc/functions.php:42
+[01-Nov-2018 01:51:55 UTC] PHP Warning:  Missing argument 2 for displaySymbol(), called in /home/ubuntu/workspace/cst366/labs/lab2/inc/functions.php on line 42 and defined in /home/ubuntu/workspace/cst366/labs/lab2/inc/functions.php on line 3
+[01-Nov-2018 01:51:55 UTC] PHP Stack trace:
+[01-Nov-2018 01:51:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst366/labs/lab2/index.php:0
+[01-Nov-2018 01:51:55 UTC] PHP   2. play() /home/ubuntu/workspace/cst366/labs/lab2/index.php:13
+[01-Nov-2018 01:51:55 UTC] PHP   3. displaySymbol() /home/ubuntu/workspace/cst366/labs/lab2/inc/functions.php:42
+[01-Nov-2018 01:51:55 UTC] PHP Warning:  Missing argument 2 for displaySymbol(), called in /home/ubuntu/workspace/cst366/labs/lab2/inc/functions.php on line 42 and defined in /home/ubuntu/workspace/cst366/labs/lab2/inc/functions.php on line 3
+[01-Nov-2018 01:51:55 UTC] PHP Stack trace:
+[01-Nov-2018 01:51:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst366/labs/lab2/index.php:0
+[01-Nov-2018 01:51:55 UTC] PHP   2. play() /home/ubuntu/workspace/cst366/labs/lab2/index.php:13
+[01-Nov-2018 01:51:55 UTC] PHP   3. displaySymbol() /home/ubuntu/workspace/cst366/labs/lab2/inc/functions.php:42
+[01-Nov-2018 01:51:55 UTC] PHP Warning:  Missing argument 2 for displaySymbol(), called in /home/ubuntu/workspace/cst366/labs/lab2/inc/functions.php on line 42 and defined in /home/ubuntu/workspace/cst366/labs/lab2/inc/functions.php on line 3
+[01-Nov-2018 01:51:55 UTC] PHP Stack trace:
+[01-Nov-2018 01:51:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst366/labs/lab2/index.php:0
+[01-Nov-2018 01:51:55 UTC] PHP   2. play() /home/ubuntu/workspace/cst366/labs/lab2/index.php:13
+[01-Nov-2018 01:51:55 UTC] PHP   3. displaySymbol() /home/ubuntu/workspace/cst366/labs/lab2/inc/functions.php:42

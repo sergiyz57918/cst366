@@ -25,7 +25,10 @@ in html
             <h1>Wade Wilson</h1>
             <hr id="nav"/>
             <nav>
-                <a href="/labs/lab1/index.html">Lab1</a>
+                <a href="/labs/lab1/index.html">Lab 1</a>
+                <a href="/labs/lab2/index.php">Lab 2</a>
+                <a href="/HW/HW1/index.html">Homework 1 </a>   
+                <a href="/HW/HW2/index.php">Homework 2</a>   
                 <a href="about.html">Abut</a>
                 <a href="contact.html">Contact</a>
             </nav>
