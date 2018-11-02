@@ -1,0 +1,144 @@
+.dice {
+  width: 187px;
+  height: 198px;
+  display: block;
+  background: url('../img/dice-roll-sprite.png') left center;
+  animation: play 0.8s steps(5) infinite;
+}
+
+@keyframes play {
+   0% { background-position: 0px 198px; }
+   100% { background-position:935px 198px; }
+}
+
+#dice_1 {
+  width: 187px;
+  height: 198px;
+  display: block;
+  background: url('../img/dice-roll-sprite.png') 0 0;
+}
+
+#dice_2 {
+  width: 187px;
+  height: 198px;
+  display: block;
+  background: url('../img/dice-roll-sprite.png') -187px 0;
+}
+
+#dice_3 {
+  width: 187px;
+  height: 198px;
+  display: block;
+  background: url('../img/dice-roll-sprite.png') -374px 0;
+}
+#dice_4 {
+  width: 187px;
+  height: 198px;
+  display: block;
+  background: url('../img/dice-roll-sprite.png') -561px 0;
+}
+#dice_5 {
+  width: 187px;
+  height: 198px;
+  display: block;
+  background: url('../img/dice-roll-sprite.png') -748px 0;
+}
+
+#dice_6 {
+  width: 187px;
+  height: 198px;
+  display: block;
+  background: url('../img/dice-roll-sprite.png') 0 -198px;
+}
+
+#dice_7 {
+  width: 187px;
+  height: 198px;
+  display: block;
+  background: url('../img/dice-roll-sprite.png') -187px -198px;
+}
+
+#dice_8 {
+  width: 187px;
+  height: 198px;
+  display: block;
+  background: url('../img/dice-roll-sprite.png') -374px -198px;
+}
+#dice_9 {
+  width: 187px;
+  height: 198px;
+  display: block;
+  background: url('../img/dice-roll-sprite.png') -561px -198px;
+}
+#dice_10 {
+  width: 187px;
+  height: 198px;
+  display: block;
+  background: url('../img/dice-roll-sprite.png') -748px -198px;
+}
+
+#dice_11 {
+  width: 187px;
+  height: 198px;
+  display: block;
+  background: url('../img/dice-roll-sprite.png') 0 -396px;
+}
+
+#dice_12 {
+  width: 187px;
+  height: 198px;
+  display: block;
+  background: url('../img/dice-roll-sprite.png') -187px -396px;
+}
+
+#dice_13 {
+  width: 187px;
+  height: 198px;
+  display: block;
+  background: url('../img/dice-roll-sprite.png') -374px -396px;
+}
+#dice_14 {
+  width: 187px;
+  height: 198px;
+  display: block;
+  background: url('../img/dice-roll-sprite.png') -561px -396px;
+}
+#dice_15 {
+  width: 187px;
+  height: 198px;
+  display: block;
+  background: url('../img/dice-roll-sprite.png') -748px -396px;
+}
+
+#dice_16 {
+  width: 187px;
+  height: 198px;
+  display: block;
+  background: url('../img/dice-roll-sprite.png') 0 -594px;
+}
+
+#dice_17 {
+  width: 187px;
+  height: 198px;
+  display: block;
+  background: url('../img/dice-roll-sprite.png') -187px -594px;
+}
+
+#dice_18 {
+  width: 187px;
+  height: 198px;
+  display: block;
+  background: url('../img/dice-roll-sprite.png') -374px -594px;
+}
+#dice_19 {
+  width: 187px;
+  height: 198px;
+  display: block;
+  background: url('../img/dice-roll-sprite.png') -561px -594px;
+}
+#dice_20 {
+  width: 187px;
+  height: 198px;
+  display: block;
+  background: url('../img/dice-roll-sprite.png') -748px -594px;
+}

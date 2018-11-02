@@ -1,0 +1,12 @@
+[02-Nov-2018 11:39:44 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst366/HW/HW2/roll.php on line 9
+[02-Nov-2018 11:39:44 UTC] PHP Stack trace:
+[02-Nov-2018 11:39:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst366/HW/HW2/roll.php:0
+[02-Nov-2018 11:39:44 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst366/HW/HW2/roll.php:9
+[02-Nov-2018 11:41:02 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst366/HW/HW2/roll.php on line 9
+[02-Nov-2018 11:41:02 UTC] PHP Stack trace:
+[02-Nov-2018 11:41:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst366/HW/HW2/roll.php:0
+[02-Nov-2018 11:41:02 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst366/HW/HW2/roll.php:9
+[02-Nov-2018 11:42:25 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/cst366/HW/HW2/roll.php on line 13
+[02-Nov-2018 12:19:00 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst366/HW/HW2/roll.php on line 77
+[02-Nov-2018 12:19:09 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst366/HW/HW2/roll.php on line 77
+[02-Nov-2018 12:35:04 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/cst366/HW/HW2/index.php on line 50
