@@ -1,12 +1,11 @@
     body{
         opacity:0.9;
         width:100%;
-        text-align:center;
-        color:yellow;
-        background-repeat: no-repeat; 
-        background-size: cover;
-        background-position: center;
-    }
+        text-align:center !important;
+        background-repeat: no-repeat !important; 
+        background-size: cover !important;
+        background-position: center !important;
+    } 
     
     input {
         font-size: 3em;

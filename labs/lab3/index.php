@@ -23,13 +23,14 @@ if(isset($_GET['keyword'])){
     <head>
         <title> Image Carusel</title>
         <meta charset="utf-8">
-          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" type="text/css" />
           <style>
                 @import url ("css/styles.css");
                 body {
                         background-image:url('<?=$backgroundImage?>');
                     }
-          </style>    
+          </style> 
+          <link rel="stylesheet" type="text/css" href="css/styles.css">
+          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" type="text/css" />
     </head>
     <body>
         
