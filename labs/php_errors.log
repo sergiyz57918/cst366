@@ -18,3 +18,6 @@
 [01-Nov-2018 01:51:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst366/labs/lab2/index.php:0
 [01-Nov-2018 01:51:55 UTC] PHP   2. play() /home/ubuntu/workspace/cst366/labs/lab2/index.php:13
 [01-Nov-2018 01:51:55 UTC] PHP   3. displaySymbol() /home/ubuntu/workspace/cst366/labs/lab2/inc/functions.php:42
+[06-Nov-2018 11:27:02 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst366/labs/lab3/index.php on line 71
+[06-Nov-2018 11:28:30 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst366/labs/lab3/index.php on line 68
+[06-Nov-2018 11:28:35 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst366/labs/lab3/index.php on line 68

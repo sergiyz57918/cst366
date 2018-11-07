@@ -51,7 +51,7 @@
             } else  if ($total > 123){
                 session_destroy();
                 echo "<h1>You Lost $total is more than 123</h1>
-                <img src='../img/tenor.gif' alt = 'Sad face'/>";
+                <img src='img/tenor.gif' alt = 'Sad face'/>";
         echo "    </table>
                     <form action='index.php' method='post'>
                         <input type='button' value='Try it again' onclick='submit()'>  
