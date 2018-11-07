@@ -21,3 +21,16 @@
 [06-Nov-2018 11:27:02 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst366/labs/lab3/index.php on line 71
 [06-Nov-2018 11:28:30 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst366/labs/lab3/index.php on line 68
 [06-Nov-2018 11:28:35 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst366/labs/lab3/index.php on line 68
+[07-Nov-2018 16:33:12 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst366/labs/lab3/index.php on line 50
+[07-Nov-2018 16:33:12 UTC] PHP Stack trace:
+[07-Nov-2018 16:33:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst366/labs/lab3/index.php:0
+[07-Nov-2018 16:54:56 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst366/labs/lab3/index.php on line 53
+[07-Nov-2018 16:54:56 UTC] PHP Stack trace:
+[07-Nov-2018 16:54:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst366/labs/lab3/index.php:0
+[07-Nov-2018 17:02:33 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst366/labs/lab3/index.php on line 51
+[07-Nov-2018 17:02:33 UTC] PHP Stack trace:
+[07-Nov-2018 17:02:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst366/labs/lab3/index.php:0
+[07-Nov-2018 17:02:33 UTC] PHP   2. rand() /home/ubuntu/workspace/cst366/labs/lab3/index.php:51
+[07-Nov-2018 17:06:00 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst366/labs/lab3/index.php on line 51
+[07-Nov-2018 17:06:00 UTC] PHP Stack trace:
+[07-Nov-2018 17:06:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst366/labs/lab3/index.php:0
