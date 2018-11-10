@@ -27,8 +27,12 @@ in html
             <nav>
                 <a href="/labs/lab1/index.html">Lab 1</a>
                 <a href="/labs/lab2/index.php">Lab 2</a>
+                <a href="/labs/lab3/index.php">Lab 3</a>
+                <a href="/labs/lab3/index.php">Lab 4</a>
+                <a href="/labs/lab3/index.php">Lab 5</a>
                 <a href="/HW/HW1/index.html">Homework 1 </a>   
                 <a href="/HW/HW2/index.php">Homework 2</a>   
+                <a href="/HW/HW3/index.php">Homework 3</a>   
                 <a href="about.html">Abut</a>
                 <a href="contact.html">Contact</a>
             </nav>
