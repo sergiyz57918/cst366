@@ -17,7 +17,7 @@
     $stmt->execute($np);
     $records = $stmt->fetchAll(PDO::FETCH_ASSOC); 
     
-    echo "<table>"; 
+    echo "<table class="table table-bordered>"; 
     echo "<tr><th>Purchase Date</th><th>Unit Price</th><th>Quantity</th></tr>";
             foreach ($records as $record) {
                 echo "<tr>";
