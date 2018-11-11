@@ -1,7 +1,7 @@
 <?php
     include 'inc/functions.php';
     include 'inc/dbConnection.php';
-    $conn= getDatabaseConnection("ottermart");
+    $categories = displayCategories($conn);
 ?>
 <!DOCTYPE html>
 <html>
@@ -32,35 +32,37 @@
             <br /> <br /> <br />
             
             <!-- Search Form -->
-            <form enctype="text/plain">
+            <form>
                 <div class="form-group">
+                    <br /><br />    
                     <label for="pName">Product Name</label>
                         <input type="text" class="form-control" name="product" id="pName" placeholder="Name">
-                    <label for="pCategory">Category</label>
-                        <select name="category" id="pCategory">
-                            <option>Select One</option>
-                            <?php displayCategories($conn); ?>
-                        </select>
-                        
-                    <label for="pFrom">Price From: </label>
-                        <input type="text" name="priceFrom" id="pFrom" size="7"/>
-                    <label for="pTo">To:</label>
-                        <input type="text" name="priceTo" id="pTo" size="7"/>
+                    <label for="priceFrom">Price From: </label>
+                        <input type="text" class="form-control" name="priceFrom" id="priceFrom" size="7"/>
+                    <label for="priceTo">To:</label>
+                        <input type="text" class="form-control" name="priceTo" id="priceTo" size="7"/>
                     
                     <span>Order result by:</span>
                         <label for="oPrice">Price</label>
-                            <input type="radio" name="orderBy" value="price" id="oPrice"/>
+                            <input type="radio" class="form-control" name="orderBy" value="price" id="oPrice"/>
                         <label for="oName">Price</label>
-                            <input type="radio" name="orderBy" value="name" id="oName"/>
+                            <input type="radio" class="form-control" name="orderBy" value="name" id="oName"/>
+                    <label for="pCategory">Category</label>
+                        <select class="form-control" name="category" id="pCategory ">
+                            <option>Select One</option>
+                            <?php echo $categories; ?>
+                        </select>
                 </div>
                 <input type="submit" value="Search" name="searchForm" class="btn btn-default">
-                <br /><br />
+
+            <span>Somthing</span>
+
             </form>
-            
-            <!-- Display Search Results -->
-            <?php displaySearchResults(); ?>
-            
+                <br /><br />            
+
         </div>
+            <!-- Display Search Results -->
+            <?php echo displaySearchResults($conn); ?>
     </div>
     </body>
 </html>

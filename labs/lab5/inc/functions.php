@@ -1,7 +1,8 @@
 <?php
 
-    function displayCategories($conn){
-          
+    function displayCategories(){
+        
+        $conn= getDatabaseConnection("ottermart");
         
         $sql = "SELECT catID,catName FROM om_category ORDER BY catName"; 
         
@@ -9,12 +10,17 @@
         $stmt->execute();
         $records = $stmt->fetchAll(PDO::FETCH_ASSOC); 
         
+        $result= "";
+        
         foreach ($records as $record) {
-            echo "<option value='".$record["catId"].">".$record["catName"]."</option>";
+            $result.= "<option value='".$record["catId"].">".$record["catName"]."</option>";
         }
         
-    } 
-    function displaySearchResults($conn){
+        return  $result;
+    }
+    function displaySearchResults(){
+        $conn= getDatabaseConnection("ottermart");
+        /*
         if(isset($_GET['searchForm'])){
             echo "<h3>Product Found: </h3>";
             
@@ -49,18 +55,19 @@
             $stmt->execute($namedParametrs);
             $records = $stmt->fetchAll(PDO::FETCH_ASSOC); 
             
-            echo "<table>"; 
-            echo "<tr><th>Product Name</th><th>Product Descriuption</th><th>Product Price</th><th>History</th></tr>";
+            
+            $result= "<table>"; 
+            $result.= "<tr><th>Product Name</th><th>Product Descriuption</th><th>Product Price</th><th>History</th></tr>";
             foreach ($records as $record) {
-                echo "<tr>";
-                echo "<td>".$record["productName"]."</td>";
-                echo "<td>".$record["productDescription"]."</td>";
-                echo "<td> $".$record["price"]."</td>";
-                echo "<td> <a href=\"purchaseHistory.php?productId=".$record["productId"]."\" History</a></td>";
-                echo "</tr>";
+                $result.= "<tr>";
+                $result.= "<td>".$record["productName"]."</td>";
+                $result.= "<td>".$record["productDescription"]."</td>";
+                $result.= "<td> $".$record["price"]."</td>";
+                $result.= "<td> <a href=\"purchaseHistory.php?productId=".$record["productId"]."\" History</a></td>";
+                $result.= "</tr>";
                 }
-            echo "</table>";
+            $result.= "</table>";
         }
-        
+    return $result;  */   
     }
 ?>
