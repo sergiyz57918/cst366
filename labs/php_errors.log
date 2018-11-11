@@ -58,3 +58,42 @@
 [11-Nov-2018 17:03:03 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/cst366/labs/lab4/functions.php on line 65
 [11-Nov-2018 17:03:03 UTC] PHP Stack trace:
 [11-Nov-2018 17:03:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst366/labs/lab4/index.php:0
+[11-Nov-2018 17:57:53 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/ubuntu/workspace/cst366/labs/lab5/inc/functions.php on line 9
+[11-Nov-2018 17:57:53 UTC] PHP Stack trace:
+[11-Nov-2018 17:57:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst366/labs/lab5/index.php:0
+[11-Nov-2018 17:58:14 UTC] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home/ubuntu/workspace/cst366/labs/lab5/inc/functions.php on line 12
+[11-Nov-2018 17:58:14 UTC] PHP Stack trace:
+[11-Nov-2018 17:58:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst366/labs/lab5/index.php:0
+[11-Nov-2018 17:58:47 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/cst366/labs/lab5/index.php on line 30
+[11-Nov-2018 17:58:47 UTC] PHP Stack trace:
+[11-Nov-2018 17:58:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst366/labs/lab5/index.php:0
+[11-Nov-2018 17:59:42 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/cst366/labs/lab5/index.php on line 30
+[11-Nov-2018 17:59:42 UTC] PHP Stack trace:
+[11-Nov-2018 17:59:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst366/labs/lab5/index.php:0
+[11-Nov-2018 18:00:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM om_category ORDER BY catName' at line 1' in /home/ubuntu/workspace/cst366/labs/lab5/inc/functions.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/cst366/labs/lab5/inc/functions.php(8): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst366/labs/lab5/index.php(42): displayCategories(Object(PDO))
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst366/labs/lab5/inc/functions.php on line 8
+[11-Nov-2018 18:02:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM om_category ORDER BY catName' at line 1' in /home/ubuntu/workspace/cst366/labs/lab5/inc/functions.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/cst366/labs/lab5/inc/functions.php(9): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst366/labs/lab5/index.php(42): displayCategories(Object(PDO))
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst366/labs/lab5/inc/functions.php on line 9
+[11-Nov-2018 18:17:32 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/cst366/labs/lab5/inc/functions.php on line 40
+[11-Nov-2018 18:17:32 UTC] PHP Stack trace:
+[11-Nov-2018 18:17:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst366/labs/lab5/index.php:0
+[11-Nov-2018 18:48:56 UTC] PHP Warning:  Missing argument 1 for displaySearchResults(), called in /home/ubuntu/workspace/cst366/labs/lab5/index.php on line 61 and defined in /home/ubuntu/workspace/cst366/labs/lab5/inc/functions.php on line 17
+[11-Nov-2018 18:48:56 UTC] PHP Stack trace:
+[11-Nov-2018 18:48:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst366/labs/lab5/index.php:0
+[11-Nov-2018 18:48:56 UTC] PHP   2. displaySearchResults() /home/ubuntu/workspace/cst366/labs/lab5/index.php:61
+[11-Nov-2018 18:49:09 UTC] PHP Warning:  Missing argument 1 for displaySearchResults(), called in /home/ubuntu/workspace/cst366/labs/lab5/index.php on line 61 and defined in /home/ubuntu/workspace/cst366/labs/lab5/inc/functions.php on line 17
+[11-Nov-2018 18:49:09 UTC] PHP Stack trace:
+[11-Nov-2018 18:49:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst366/labs/lab5/index.php:0
+[11-Nov-2018 18:49:09 UTC] PHP   2. displaySearchResults() /home/ubuntu/workspace/cst366/labs/lab5/index.php:61
+[11-Nov-2018 18:50:12 UTC] PHP Warning:  Missing argument 1 for displaySearchResults(), called in /home/ubuntu/workspace/cst366/labs/lab5/index.php on line 61 and defined in /home/ubuntu/workspace/cst366/labs/lab5/inc/functions.php on line 17
+[11-Nov-2018 18:50:12 UTC] PHP Stack trace:
+[11-Nov-2018 18:50:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst366/labs/lab5/index.php:0
+[11-Nov-2018 18:50:12 UTC] PHP   2. displaySearchResults() /home/ubuntu/workspace/cst366/labs/lab5/index.php:61
