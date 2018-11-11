@@ -303,3 +303,14 @@ Stack trace:
 [11-Nov-2018 19:58:05 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/ubuntu/workspace/cst366/labs/lab5/inc/functions.php on line 45
 [11-Nov-2018 19:58:05 UTC] PHP Stack trace:
 [11-Nov-2018 19:58:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst366/labs/lab5/index.php:0
+[11-Nov-2018 20:00:57 UTC] PHP Parse error:  syntax error, unexpected 'table' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst366/labs/lab5/purchaseHistory.php on line 20
+[11-Nov-2018 20:01:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/cst366/labs/lab5/purchaseHistory.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/cst366/labs/lab5/purchaseHistory.php(17): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst366/labs/lab5/purchaseHistory.php on line 17
+[11-Nov-2018 20:02:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.pm_purchase' doesn't exist' in /home/ubuntu/workspace/cst366/labs/lab5/purchaseHistory.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/cst366/labs/lab5/purchaseHistory.php(17): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst366/labs/lab5/purchaseHistory.php on line 17

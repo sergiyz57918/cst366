@@ -6,8 +6,8 @@
     $productId = $_GET['productId'];
     
     $sql = "SELECT * FROM om_product 
-            NATURAL JOIN pm_purchase
-            WHERE productId= :pID";
+            NATURAL JOIN om_purchase
+            WHERE productId= :pId";
             
     $np = array(); 
     $np[":pId"] = $productId; 
@@ -16,8 +16,11 @@
     $stmt = $conn->prepare($sql); 
     $stmt->execute($np);
     $records = $stmt->fetchAll(PDO::FETCH_ASSOC); 
-    
-    echo "<table class="table table-bordered>"; 
+    if (count ($records)>0){
+    echo $records[0]['productName'] . "<br/>";
+    echo "<img src='" . $records[0]['productImage'] . "' width='200'/><br/>";
+
+    echo "<table class='table table-bordered'>"; 
     echo "<tr><th>Purchase Date</th><th>Unit Price</th><th>Quantity</th></tr>";
             foreach ($records as $record) {
                 echo "<tr>";
@@ -26,5 +29,6 @@
                 echo "<td> $".$record["quantity"]."</td>";
                 echo "</tr>";
                 }
-            echo "</table>";
+    echo "</table>";
+    }
 ?>

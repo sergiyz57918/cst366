@@ -69,10 +69,34 @@
                 $result.= "<td><img src='".$record["productImage"]."' width ='100 px'/></td>";
                 $result.= "<td>".$record["productDescription"]."</td>";
                 $result.= "<td> $".$record["price"]."</td>";
+                if (hasHistory($record["productId"])){
                 $result.= "<td> <a href='purchaseHistory.php?productId=".$record["productId"]."'>History</a></td>";
+                }
                 $result.= "</tr>";
                 }
             $result.= "</table>";
         }
     return $result;   
     }
+    function hasHistory ($productId){
+            $conn= getDatabaseConnection("ottermart");
+    
+            $sql = "SELECT * FROM om_product 
+                    NATURAL JOIN om_purchase
+                    WHERE productId= :pId";
+                    
+            $np = array(); 
+            $np[":pId"] = $productId; 
+            
+            
+            $stmt = $conn->prepare($sql); 
+            $stmt->execute($np);
+            $records = $stmt->fetchAll(PDO::FETCH_ASSOC); 
+    if (count ($records)>0){
+        return true; 
+    }
+    else{
+        return false; 
+    }
+    }
+?>
