@@ -3,9 +3,17 @@ session_start();
 include 'functions.php';
 
 if(isset($_POST['removeId'])){
-    foreach ($_SESSION['cart'] as $itemKey->$item){
+    foreach ($_SESSION['cart'] as $itemKey=>$item){
         if($item['id']==$_POST['removeId']){
             unset($_SESSION['cart'][$itemKey]);
+        }
+    }
+}
+
+if(isset($_POST['itemId'])){
+    foreach ($_SESSION['cart'] as &$item){
+        if($item['id']==$_POST['itemId']){
+            $item['quantity']=$_POST['update'];
         }
     }
 }
@@ -41,9 +49,8 @@ if(isset($_POST['removeId'])){
                 <h2>Shopping Cart</h2>
                 <!-- Cart Items -->
                 <?php
-                    if(isset($_SESSION['cart'])){
-                        echo $_SESSION['cart']; 
-                    }
+                    displayCart();
+
                 ?>
 
             </div>
