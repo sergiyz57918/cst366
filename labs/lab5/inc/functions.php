@@ -62,17 +62,17 @@
             
             
             $result= '<table class="table table-bordered">'; 
-            $result.= "<tr><th>Product Name</th><th>Product Descriuption</th><th>Product Price</th><th>History</th></tr>";
+            $result.= "<tr><th>Product Name</th><th>Product Image</th><th>Product Descriuption</th><th>Product Price</th><th>Product History</th></tr>";
             foreach ($records as $record) {
                 $result.= "<tr>";
                 $result.= "<td>".$record["productName"]."</td>";
                 $result.= "<td><img src='".$record["productImage"]."' width ='100 px'/></td>";
                 $result.= "<td>".$record["productDescription"]."</td>";
-                $result.= "<td> $".$record["price"]."</td>";
+                $result.= "<td> $".$record["price"]."</td><td> ";
                 if (hasHistory($record["productId"])){
-                $result.= "<td> <a href='purchaseHistory.php?productId=".$record["productId"]."'>History</a></td>";
+                $result.= "<a href='purchaseHistory.php?productId=".$record["productId"]."'>History</a>";
                 }
-                $result.= "</tr>";
+                $result.= "</td></tr>";
                 }
             $result.= "</table>";
         }
