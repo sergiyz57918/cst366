@@ -33,32 +33,36 @@
             
             <!-- Search Form -->
             <form>
-                <div class="form-group">
-                    <br /><br />    
+                <div class="form-row">
+                    <br /><br /> 
+                    <div class="form-group">
                     <label for="pName">Product Name</label>
                         <input type="text" class="form-control" name="product" id="pName" placeholder="Name">
-                    <label for="priceFrom">Price From: </label>
-                        <input type="text" class="form-control" name="priceFrom" id="priceFrom" size="7"/>
-                    <label for="priceTo">To:</label>
-                        <input type="text" class="form-control" name="priceTo" id="priceTo" size="7"/>
-                    
+                    </div>
+                    <div class="form-group col-md-6">    
+                                <input type="text" class="form-control" name="priceFrom" id="priceFrom" placeholder="Price From: "/>
+                        </div>
+                    <div class="form-group col-md-6">    
+                                <input type="text" class="form-control" name="priceTo" id="priceTo" placeholder="To: "/>
+                    </div>
+                        <div class="form-check form-check-inline">
                     <span>Order result by:</span>
-                        <label for="oPrice">Price</label>
-                            <input type="radio" class="form-control" name="orderBy" value="price" id="oPrice"/>
-                        <label for="oName">Price</label>
-                            <input type="radio" class="form-control" name="orderBy" value="name" id="oName"/>
+                        <label for="oPrice" class="form-check-label">Price</label>
+                            <input type="radio" class="form-check-input" name="orderBy" value="price" id="oPrice"/>
+                        <label for="oName" class="form-check-label">Name</label>
+                            <input type="radio" class="form-check-input" name="orderBy" value="name" id="oName"/>
+                    </div>
                     <label for="pCategory">Category</label>
                         <select class="form-control" name="category" id="pCategory ">
                             <option>Select One</option>
                             <?php echo $categories; ?>
                         </select>
                 </div>
-                <input type="submit" value="Search" name="searchForm" class="btn btn-default">
-
-            <span>Somthing</span>
+                <br /><br />   
+                <input type="submit" value="Search" name="searchForm" class="btn btn-primary">
 
             </form>
-                <br /><br />            
+            <br /><br />            
 
         </div>
             <!-- Display Search Results -->
