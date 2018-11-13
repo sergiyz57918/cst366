@@ -20,6 +20,25 @@
         
         return  $result;
     }
+    function displayCategoriesAll(){
+        
+        $conn= getDatabaseConnection("ottermart");
+        
+        $sql = "SELECT catID,catName FROM om_category ORDER BY catName"; 
+        
+        $stmt = $conn->prepare($sql); 
+        $stmt->execute();
+        $records = $stmt->fetchAll(PDO::FETCH_ASSOC); 
+        
+        $result= "";
+        
+        foreach ($records as $record) {
+            $result.= "<option ";
+            $result.= " value='".$record["catID"]."'>".$record["catName"]."</option>";
+        }
+        
+        return  $result;
+    }
     function displaySearchResults(){
         $conn= getDatabaseConnection("ottermart");
         

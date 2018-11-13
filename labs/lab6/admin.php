@@ -5,6 +5,7 @@
     }
     include 'inc/dbConnection.php';   
     include 'inc/functions.php';
+    $categories = displayCategories($conn);
     $products = displaySearchResults(); 
 
 ?>

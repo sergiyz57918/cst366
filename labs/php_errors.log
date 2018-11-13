@@ -455,3 +455,10 @@ Stack trace:
 #0 /home/ubuntu/workspace/cst366/labs/lab6/deleteProduct.php(13): PDOStatement->execute()
 #1 {main}
   thrown in /home/ubuntu/workspace/cst366/labs/lab6/deleteProduct.php on line 13
+[13-Nov-2018 00:42:00 UTC] PHP Fatal error:  Cannot redeclare displayCategories() (previously declared in /home/ubuntu/workspace/cst366/labs/lab6/inc/functions.php:3) in /home/ubuntu/workspace/cst366/labs/lab6/inc/functions.php on line 41
+[13-Nov-2018 00:42:00 UTC] PHP Stack trace:
+[13-Nov-2018 00:42:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst366/labs/lab6/admin.php:0
+[13-Nov-2018 00:43:37 UTC] PHP Warning:  Missing argument 1 for displayCategories(), called in /home/ubuntu/workspace/cst366/labs/lab6/admin.php on line 8 and defined in /home/ubuntu/workspace/cst366/labs/lab6/inc/functions.php on line 3
+[13-Nov-2018 00:43:37 UTC] PHP Stack trace:
+[13-Nov-2018 00:43:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst366/labs/lab6/admin.php:0
+[13-Nov-2018 00:43:37 UTC] PHP   2. displayCategories() /home/ubuntu/workspace/cst366/labs/lab6/admin.php:8
