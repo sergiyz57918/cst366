@@ -43,6 +43,7 @@ in html
                             <li><a href="/labs/lab3/index.php">Lab 3</a></li>
                             <li><a href="/labs/lab4/index.php">Lab 4</a></li>
                             <li><a href="/labs/lab5/index.php">Lab 5</a></li>
+                            <li><a href="/labs/lab6/index.php">Lab 6</a></li>
                         </ul>
                     </div>
                     <div class="collapse" id="homework">

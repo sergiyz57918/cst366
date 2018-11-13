@@ -20,9 +20,10 @@
     }
     function displaySearchResults(){
         $conn= getDatabaseConnection("ottermart");
+        $namedParametrs  = array(); 
         
         if(isset($_GET['searchForm'])){
-            echo "<h3>Product Found: </h3>";
+            $result= "<h3>Product Found: </h3>";
             
             $sql = "SELECT * FROM om_product WHERE 1 "; 
             
@@ -61,7 +62,7 @@
             $records = $stmt->fetchAll(PDO::FETCH_ASSOC); 
             
             
-            $result= '<table class="table table-bordered">'; 
+            $result.= '<table class="table table-bordered">'; 
             $result.= "<tr><th>Product Name</th><th>Product Image</th><th>Product Descriuption</th><th>Product Price</th><th>Product History</th></tr>";
             foreach ($records as $record) {
                 $result.= "<tr>";
