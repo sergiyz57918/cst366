@@ -23,11 +23,15 @@
             function startGame(){
                 pickWord()
                 initBoard();
+                createLetters();
+                updateMan();
                 updateBoard(); 
             }
             
             function initBoard(){
-                board.push("_"); 
+                for (var letter in selectWord){
+                    board.push("_"); 
+                }
             }
             
             function pickWord(){
@@ -57,7 +61,6 @@
                 
                 //Put all the positions the letter exists in an array
                 for(var i=0;i< selectWord.length; i++){
-                    console.log(selectWord)
                     if (letter == selectWord[i]){
                         position.push(i);
                     }
@@ -79,6 +82,7 @@
                 if(remainingGuesses<=0){
                     endGame(false);                    
                 }
+            updateMan();
             }
             
             function updateWord(position,letter){
@@ -95,7 +99,7 @@
             }
             
             function updateMan(){
-                $("hangImg").attr("src", "img/stick_"+(6- remainingGuesses)+".png"); 
+                $("#hangImg").attr("src", "img/stick_"+(6- remainingGuesses)+".png"); 
             }
             
             function endGame(win){
@@ -113,6 +117,11 @@
             }
             
             function disableButton(btn){
-                btn.prop("disable",true);
+                btn.prop("disabled",true);
                 btn.attr("class","btn btn-danger");
             }
+            
+            $(".letter").click(function(){
+                checkLetter($(this).attr("id")); 
+                disableButton($(this));
+            })
