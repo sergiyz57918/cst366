@@ -44,7 +44,7 @@ in html
                             <li><a href="/labs/lab4/">Lab 4</a></li>
                             <li><a href="/labs/lab5/">Lab 5</a></li>
                             <li><a href="/labs/lab6/">Lab 6</a></li>
-                            <li><a href="/labs/lab7/index.html">Lab 7</a></li>
+                            <li><a href="/labs/lab7/">Lab 7</a></li>
                         </ul>
                     </div>
                     <div class="collapse" id="homework">
