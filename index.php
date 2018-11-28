@@ -38,21 +38,21 @@ in html
                     </ul>
                     <div class="collapse" id="labs">
                         <ul class='nav navbar-nav'>
-                            <li><a href="/labs/lab1/index.html">Lab 1</a></li>
-                            <li><a href="/labs/lab2/index.php">Lab 2</a></li>
-                            <li><a href="/labs/lab3/index.php">Lab 3</a></li>
-                            <li><a href="/labs/lab4/index.php">Lab 4</a></li>
-                            <li><a href="/labs/lab5/index.php">Lab 5</a></li>
-                            <li><a href="/labs/lab6/index.php">Lab 6</a></li>
+                            <li><a href="/labs/lab1/">Lab 1</a></li>
+                            <li><a href="/labs/lab2/">Lab 2</a></li>
+                            <li><a href="/labs/lab3/">Lab 3</a></li>
+                            <li><a href="/labs/lab4/">Lab 4</a></li>
+                            <li><a href="/labs/lab5/">Lab 5</a></li>
+                            <li><a href="/labs/lab6/">Lab 6</a></li>
+                            <li><a href="/labs/lab7/">Lab 6</a></li>
                         </ul>
                     </div>
                     <div class="collapse" id="homework">
                         <ul class='nav navbar-nav'>
-                            <li><a href="/HW/HW1/index.html">Homework 1</a></li>
-                            <li><a href="/HW/HW2/index.php">Homework 2</a></li>
-                            <li><a href="/HW/HW3/index.php">Homework 3</a></li>
-                            <li><a href="/HW/HW4/index.php">Homework 4</a></li>
-                            <li><a href="/HW/HW5/index.php">Homework 5</a></li>
+                            <li><a href="/HW/HW1/">Homework 1</a></li>
+                            <li><a href="/HW/HW2/">Homework 2</a></li>
+                            <li><a href="/HW/HW3/">Homework 3</a></li>
+                            <li><a href="/HW/HW4/">Homework 4</a></li>
                         </ul>
                     </div>
 

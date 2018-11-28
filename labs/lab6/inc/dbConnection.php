@@ -1,5 +1,5 @@
 <?php
-function getDatabaseConnection($dbname = 'ottermart')
+function getDatabaseConnection($dbname = 'midterm')
 {
     //C9 Db Info
     $host='localhost';
