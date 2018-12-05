@@ -32,26 +32,37 @@
             <br /> <br /> <br />
             
             <!-- Search Form -->
-            <form method="POST" action="loginProcess.php">
-                <div class="form-group">
-                    <label for="uName">Username</label>
-                        <input type="text" name="username" id="uName"/>
-                    <label for="uPass">Password</label>
-                        <input type="password" name="password" id="uPass"/>
-
-                </div>
-                <br /><br />   
-                <input type="submit" value="Log-in" name="searchForm" class="btn btn-primary">
-
-            </form>
-            <?php
-             if ($_SESSION['incorrect']){
-                 echo "<p class='lead' id='error' style='color:red'>"; 
-                 echo "<strong>Incorrect Username or Password!</strong></p>";
-             }
-            ?>
-            <br /><br />            
-
+            <div class="login-form">
+                <div class="main-div">
+                    <div class="panel">
+                   <h2>Admin Login</h2>
+                   <p>Please enter your email and password</p>
+                   </div>
+                    <form method="POST" action="loginProcess.php">
+                
+                        <div class="form-group">
+                
+                
+                            <input type="text" class="form-control" name="username" id="uName" placeholder="User Name">
+                
+                        </div>
+                
+                        <div class="form-group">
+                
+                            <input type="password" class="form-control" name="password" id="uPass" placeholder="Password">
+                
+                        </div>
+                        <button type="submit" alue="Log-in" name="searchForm" class="btn btn-primary">Login</button>
+                
+                    </form>
+                        <?php
+                             if ($_SESSION['incorrect']){
+                                 echo "<p class='lead' id='error' style='color:red'>"; 
+                                 echo "<strong>Incorrect Username or Password!</strong></p>";
+                             }
+                            ?>
+                    </div>
+            </div>
         </div>
     </div>
     </body>
