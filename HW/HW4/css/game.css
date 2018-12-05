@@ -1,0 +1,79 @@
+#gameWindow{
+    position: relative;
+    width: 800px;
+    height: 400px;
+    background-color: black;
+    overflow: hidden;
+}
+
+#pc{
+    position: absolute;
+    border-radius: 10px;
+    background-color: red;
+}
+
+.platform{
+    position: absolute;
+    background-color: orange;
+    border-radius: 5px;
+}
+
+#npc_prince{
+    position: absolute;
+    border-radius: 10px;
+    background-color: yellow;
+}
+
+#btnContinue{
+    position: absolute;
+    left: 350px;
+    top: 320px;
+    
+    background-color: rgba(255, 255, 255, 0.6);
+    color: black;
+    
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    
+    text-align: center;
+    font-size: 14pt;
+    
+    cursor: hand;
+    cursor: pointer;
+    
+    z-index: 10;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#btnContinue:hover{
+    position: absolute;
+    left: 350px;
+    top: 320px;
+    
+    display: none;
+    
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.msgGameOver{
+    font-size: 50pt;
+    text-align: center;
+    color: white;
+}
+
+#lifebar{
+    position: absolute;
+    width: 400px;
+    left: 400px;
+    text-align: right;
+    
+/*    height: 50px;*/
+/*    background-color: aqua;*/
+}
